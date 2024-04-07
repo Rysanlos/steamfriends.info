@@ -21,7 +21,7 @@ They will have access to the members section
 
 Remove the index.html, to connect to your site type example.com/login in the adress bar
 
-You can loop trough all the members by executing php crontab/GetFriendList.php without parameter (don't use it in a cronjob except if you use it for a single account or two, otherwise a while loop would be better)
+You can loop trough all the members by executing php crontab/GetFriendList.php without parameter (don't use it in a cronjob except if it's for a single account or two, otherwise a while loop would be better)
 
 # Credits
 
