@@ -18,3 +18,5 @@ Make sure that you also have imported the install.sql file to your database
 
 Replace $admins = array('765XXXXXXXXXXXXX'); in file include/config.php line 29 with your steamid64 you can also add mutliple admins e.g. $admins = array('1','2','3');
 They will have access to the members section
+
+Remove the index.html, to connect to your site type /login
