@@ -1,8 +1,8 @@
 <?php
 set_time_limit(0);
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+error_reporting(-1);
+ini_set('display_errors', 0);
 
 if(isset($_GET['steamid']) && !empty($_GET['steamid']))
 {
