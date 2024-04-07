@@ -2,10 +2,8 @@
 set_time_limit(0);
 require realpath(__DIR__ . '/include/config.php');
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
+error_reporting(-1);
+ini_set('display_errors', 0);
 
 if(isset($_POST['filter']))
 {
