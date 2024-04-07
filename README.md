@@ -20,3 +20,7 @@ Replace $admins = array('765XXXXXXXXXXXXX'); in file include/config.php line 29 
 They will have access to the members section
 
 Remove the index.html, to connect to your site type example.com/login in the adress bar
+
+# Credits
+
+All credit goes to [Xyleme](https://steamcommunity.com/profiles/76561197960288870) for making the code and [Rysanlos](https://steamcommunity.com/profiles/76561198026039547) for maintaining it during 7 years
