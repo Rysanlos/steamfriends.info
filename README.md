@@ -11,7 +11,7 @@ To get an apikey go to https://steamcommunity.com/dev/apikey
 
 You can add multiple api keys to prevent limitation e.g. $apikey = array('1','2','3');
 
-Replace $db = new mysqli('localhost', 'user', 'password', 'database'); in file crontab/GetFriendList.php line 31 with your database credential
+Replace $db = new mysqli('localhost', 'user', 'password', 'database'); in file crontab/GetFriendList.php line 14 and 31 with your database credential
 Replace $db = new mysqli('localhost', 'user', 'password', 'database'); in file include/config.php line 6 with your database credential
 
 Make sure that you also have imported the install.sql file to your database
